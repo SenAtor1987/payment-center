@@ -1,0 +1,39 @@
+﻿
+.button_groupe {
+    display:flex;
+    padding: 40px;
+    justify-content:space-between;
+}
+
+.persaccount {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+.main_section {
+    display: flex;
+    justify-content: space-around;
+    background-color: lavender;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.water {
+    padding-top: 30px;
+}
+
+.makepayment {
+    padding-top: 30px;
+}
+
+.container_table {
+    margin-right: 10px;
+}
+
+.container_water {
+    text-align:center;
+}
+

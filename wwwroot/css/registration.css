@@ -1,0 +1,16 @@
+﻿.btn btn-outline-dark
+ {
+    position:center;
+}
+
+.reg_logo {
+    text-align:center;
+    margin-bottom: 40px;
+    margin-top:20px;
+}
+
+.button_registration {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}

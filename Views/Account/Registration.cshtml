@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Registration";
+}
+
+@section Styles {
+<link rel="stylesheet" href="~/css/registration.css" asp-append-version="true" />
+}
+
+<div>
+    <h1 class="reg_logo">Registration new account</h1>
+    <form>
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">First Name</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="inputText3">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Last Name</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="inputText3">
+            </div>
+        </div>
+        <div class="container" style="padding: 0;">
+            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="col">
+                    <div class="row mb-3" style="margin-top: 20px;">
+                        <label for="inputCity" class="col-sm-2 col-form-label">Adress</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-md-8">
+                        <label for="inputCity" class="form-label">Street</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-md-4">
+                        <label for="inputCity" class="form-label">house</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-md-2">
+                        <label for="inputCity" class="form-label">appartment</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row mb-3">
+            <label class="col-sm-2 col-form-label" for="autoSizingSelect">Select indicator</label>
+            <div class="col-sm-5">
+                <select class="form-select" id="autoSizingSelect">
+                    <option value="1">water</option>
+                    <option value="2">ligth</option>
+                    <option value="3">gas</option>
+                </select>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Last amount</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="inputText3">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-5">
+                <input type="email" class="form-control" id="inputEmail3">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-5">
+                <input type="password" class="form-control" id="inputPassword3">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Repeet Password</label>
+            <div class="col-sm-5">
+                <input type="password" class="form-control" id="inputPassword3">
+            </div>
+        </div>
+    </form>
+    <div class="button_registration">
+        <button type="button" class="btn btn-dark">Registration</button>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "_UnauthorizeLayout";
+}
+
+@section Styles {
+<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+}
+
+<div class="form-signin w-100" style="margin-top: 60px; width:500px; position:relative; left:300px">
+    <form method="post" class="form_signin">
+        <div class="container-fluid" style="text-align:center; margin-bottom:30px">
+            <a class="navbar-brand" href="/">
+                <img src="/img/logo.svg" width="120" height="120" />
+            </a>
+        </div>
+        <h1 class="h1_signig">Please sign in</h1>
+
+        <div class="form-floating" style="margin-bottom: 10px;" value="" autocomplete="off">
+            <input class="form-control" name="Login" placeholder="Login">
+            <label for="floatingInput">Login</label>
+        </div>
+        <div class="form-floating" style="margin-bottom: 10px;">
+            <input type="password" class="form-control" name="Password" placeholder="Password" autocomplete="new-password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+    </form>
+</div>
+

@@ -1,0 +1,17 @@
+﻿.admin_logo {
+    position:center;
+}
+
+.admin_logo {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.btn_applay_denay {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
